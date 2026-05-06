@@ -254,15 +254,6 @@ python kibo_fair_test.py
 
 # 12. License / Contribution
 
-좋은 방향인데, 그대로 쓰면 약간 애매함
-→ “완전 자유” + “출처 표시” + “상업 문의”를 **명확하게 분리**해줘야 신뢰도 올라감
-
-아래는 그대로 README에 넣으면 되는 **정식 License / Contribution 섹션 (한/영)**임
-
----
-
-# 12. License / Contribution
-
 ## 📄 License
 
 ### EN
