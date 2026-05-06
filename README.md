@@ -76,7 +76,47 @@ MTP-L2 해결 방식:
 
 ---
 
-# 4. Core Commands (핵심 명령어)
+# 4. Quick Start (Beginner Friendly)
+
+## ⚡ 1분 안에 실행하기
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/hyeon3125-dev/MTP-L2-mini
+cd MTP-L2-mini
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Example
+
+```bash
+python mtp.py "@lib forecast Seoul"
+```
+
+### 4. Expected Output
+
+```json
+{
+  "status": "success",
+  "output": {
+    "city": "Seoul",
+    "condition": "Sunny",
+    "temp": 22
+  }
+}
+```
+
+> 👉 이 예제가 안 되면 90%는 뭔가 잘못된 겁니다. 위 단계를 다시 확인하세요.
+
+---
+
+# 5. Core Commands (핵심 명령어)
 
 ```
 @lib forecast Seoul     # 외부 API 호출
@@ -96,7 +136,7 @@ MTP-L2 해결 방식:
 
 ---
 
-# 5. Performance Summary (성능 요약)
+# 6. Performance Summary (성능 요약)
 
 ## EN
 
@@ -122,7 +162,7 @@ MTP-L2 해결 방식:
 
 ---
 
-# 6. Key Insight (핵심 발견)
+# 7. Key Insight (핵심 발견)
 
 ## EN
 
@@ -138,7 +178,7 @@ MTP-L2는 👉 사용자가 직접 실행 경로를 지정 → 항상 도구 사
 
 ---
 
-# 7. Architecture (구조)
+# 8. Architecture (구조)
 
 ```
 User
@@ -154,7 +194,21 @@ Command Parser
 
 ---
 
-# 8. Reproducibility (재현 방법)
+# 9. Project Structure
+
+```
+📁 MTP-L2-mini/
+├── mtp_l2_mini.py      # Core API server
+├── mtp.py              # CLI interface (Quick Start용)
+├── requirements.txt    # Dependencies
+├── kibo_fair_test.py   # KIBO 성능 테스트
+├── kibo_calibration.py # Baseline 보정 테스트
+└── kibo_*.csv          # Test results (optional)
+```
+
+---
+
+# 10. Reproducibility (재현 방법)
 
 ## EN
 
@@ -178,7 +232,7 @@ python kibo_fair_test.py
 
 ---
 
-# 9. Use Cases (활용 사례)
+# 11. Use Cases (활용 사례)
 
 ## EN
 
@@ -196,7 +250,7 @@ python kibo_fair_test.py
 
 ---
 
-# 10. Appendix (부록 - 쉽게 이해하기)
+# 12. Appendix (부록 - 쉽게 이해하기)
 
 ## 🧠 AI를 이렇게 생각하면 쉬움
 
@@ -238,7 +292,7 @@ python kibo_fair_test.py
 
 ---
 
-# 11. One-Line Summary
+# 13. One-Line Summary
 
 ## EN
 
@@ -250,7 +304,7 @@ python kibo_fair_test.py
 
 ---
 
-# 12. License / Contribution
+# 14. License / Contribution
 
 ## 📄 License
 
