@@ -319,5 +319,3 @@ Powered by MTP-L2 Framework (https://github.com/hyeon3125-dev/MTP-L2-mini)
 
 ---
 
-
-까지 만들어줄게
